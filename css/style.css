@@ -1,0 +1,81 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font02);
+  
+  
+   
+}
+html, body{
+    height: 100%;
+}
+ :root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02:  'Open Sans', sans-serif;
+    
+   
+
+
+ }
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+   
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #212343;
+}
+
+header img{
+  margin: 15px;
+}
+
+.conterner-banner{
+
+    width: 100%;
+    height: 557px;
+    background-image: url('../images/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.conterner-banner > .center{
+
+    height: 100%;
+}
+
+.form{
+    padding: 10px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+     /* para coseguir manipular as posições left top right*/
+     position: relative;
+     /*pq a posição relativa me possibililitou usar esse recurso, sendo assim estou usando 100 % da hatura, com + 30px que desceu, e os -15px que subiu, podemos fazeer a mesma coias para qualquer lado que quiserssemos */
+     top: -15px;
+     border: 8px solid #ccc;
+   
+    background-color: white;
+ 
+  
+
+}
+
+.form{
+    font-weight: normal;
+    color: #999999;
+    font-size: 1em;
+}
