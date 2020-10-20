@@ -1,9 +1,9 @@
 @charset "UTF-08";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 @font-face{
     font-family: 'OpenSans';
-    src: url('../fonts/OpenSans-Light.ttf') format('truetype');
+    src: url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
    
 }
 
@@ -11,8 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font02);
-  
+   font-family: 'OpenSans';
   
    
 }
@@ -21,7 +20,7 @@ html, body{
 }
  :root{
     --font01: Verdana, Geneva, Tahoma, sans-serif;
-    --font02:  'Open Sans', sans-serif;
+    --font02:  'OpenSans', sans-serif;
     
    
 
@@ -78,4 +77,54 @@ header img{
     font-weight: normal;
     color: #999999;
     font-size: 1em;
+}
+
+
+span{
+margin-top: 20px;
+display: inline-block;
+width: 100%;
+color: #bbbbbb;
+font-size: 17px;
+
+}
+
+form > input{
+margin-top: 8px;
+width: 344px;
+height: 55px;
+border: 1px solid #ccc;
+
+}
+
+.warning{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+form .enviar{
+    text-align:center;
+}
+
+
+form [type =submit]{
+    color: white;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363A6D;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 5px solid #4A5097;
+
+
+}
+form [type =submit]:hover{
+    background-color: #323665;
 }
