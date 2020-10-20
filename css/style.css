@@ -6,6 +6,9 @@
     src: url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
    
 }
+.clear{
+    clear: both;
+}
 
 *{
     margin: 0;
@@ -189,6 +192,7 @@ form [type =submit]:hover{
 
 }
 section{
+    
     min-width: 1200px;
 }
 /* meu h2 da section*/
@@ -204,6 +208,10 @@ font-weight: normal;
 }
 
 .div1{
+  
+  
+    margin: 0, auto;
+    padding: 0 2%;
     margin-top: 40px;
     float: left;
     width: 33.333%;
@@ -227,4 +235,25 @@ font-weight: normal;
   }
 
 
+  footer{
+    border-top: 2px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+  }
 
+
+  footer p {
+      margin-top: 8px;
+
+  }
+  footer a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  footer > a :hover{
+      text-decoration: underline;
+      background-color: #212343;
+  }
+ 
